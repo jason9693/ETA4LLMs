@@ -11,7 +11,7 @@ see [calc_flops.py](calc_flops.py) for details
 - S : Number of Steps
 
 ## Total FLOP
-$$FLOP_{Model}(n_h, d_h, d_e,L,d_{ff},S,B,N) = SBL*3\{(M(n_H,d_H,d_e,L) + {FF}_{sub}(d_e)) *N + FF_{final}(d_e, d_{ff})\}$$
+$FLOP_{Model}(n_h, d_h, d_e,L,d_{ff},S,B,N) \\ \;\;\;\;\;\;\;\;= SBL*3\{(M(n_H,d_H,d_e,L) + {FF}_{sub}(d_e)) *N + FF_{final}(d_e, d_{ff})\}$
 
 ## Expected Spent Time
 $$\text{Expected Spent Time} = \alpha*\frac{FLOP_{Model}}{FLOPS}(\text{seconds})$$
